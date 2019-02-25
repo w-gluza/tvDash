@@ -4,7 +4,7 @@ The idea of a project was to recreate PSD file in the most accurate way. Dashboa
 
 ## Important Information
 
-This is not a free design project please contact [Kontrast CPH](https://www.kontrastcph.dk/ if you would like to use that design.
+This is not a free design project please contact [Kontrast CPH](https://www.kontrastcph.dk/) if you would like to use that design.
 
 ## Authors
 
