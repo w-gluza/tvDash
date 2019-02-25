@@ -10,8 +10,6 @@ function runAnimation() {
   paragraph.forEach(function(p) {
     p.classList.add('paragraph-active');
   });
-
-  console.log(`Animation started`);
 }
 
 function initialState() {
@@ -21,12 +19,11 @@ function initialState() {
   paragraph.forEach(function(p) {
     p.classList.remove('paragraph-active');
   });
-  console.log(`Initial State`);
 }
 
 function theLoop(i) {
   initialState();
-  demo.innerHTML = i;
+  demo.innerHTML = i.toLocaleString('de-DE');
 
   setTimeout(function() {
     runAnimation();

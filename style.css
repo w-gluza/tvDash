@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
 
+/* Metropolis SemiBold - 300 (headings) */
+/* Manrope bold - 700 (headings) */
+
 /* CSS VARIABLES*/
 :root {
   --color-primary: #101223;
@@ -24,7 +27,7 @@
   --line-height-regular: 1.5;
   --line-height-large: 2;
 
-  /* --letter-spacing-small: 0.05em; */
+  --letter-spacing-small: 0.05em;
   --letter-spacing-regular: 0.15em;
   --letter-spacing-large: 0.2em;
 }
@@ -37,7 +40,6 @@
   padding: 0;
   border: 0;
   box-sizing: border-box;
-  list-style: none;
   border: none;
   text-decoration: none;
   background-color: transparent;
@@ -76,7 +78,7 @@ h2 {
 }
 .data {
   font-size: var(--font-size-headingLarge);
-  font-weight: var(--font-weight-regular);
+  font-weight: var(--font-weight-bold);
   line-height: var(--line-height-regular);
   letter-spacing: var(--letter-spacing-small);
   color: var(--color-heading);
@@ -98,6 +100,18 @@ h2 {
   text-transform: uppercase;
 }
 
+.list__items {
+  font-size: var(--font-size-list);
+  font-weight: var(--font-weight-light);
+  line-height: var(--line-height-regular);
+  letter-spacing: var(--letter-spacing-regular);
+  color: var(--color-paragraph);
+}
+
+.list__items-modify {
+  color: var(--color-heading);
+  padding-left: 30px;
+}
 /* -------------CSS Grid------------- */
 
 .container {
